@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            font-family: Arial, sans-serif;
+        }
+        .card-container {
+            display: flex;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            max-width: 700px;
+            color: white;
+        }
+        .info-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 250px;
+            height: 300px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+        h2 {
+            margin: 10px 0;
+            color: #fff;
+        }
+        p {
+            color: #ccc;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .social-icons {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+        .get-in-touch {
+            margin-top: 15px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1DA1F2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .get-in-touch:hover {
+            background-color: #0d8ddf;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="info-section">
+            <h2>Teja Kumar R</h2>
+            <p><strong>Software Engineer</strong></p>
+            <p>Building scalable and secure web applications.</p>
+            <p><strong>📍 Location:</strong> India</p>
+            <a href="mailto:rteju4833@gmail.com" class="get-in-touch">Get In Touch</a>
+            <div class="social-icons">
+                <a href="https://github.com/Tejugowda2001" target="GitHub">🐙 GitHub</a>
+                <a href="https://in.linkedin.com/in/teja-kumar-r-084bb8276" target="LinkedIn">🔗 LinkedIn</a>
+                <a href="https://twitter.com/tejaktm" target="Twitter">🐦 Twitter</a>
+            </div>
+        </div>
+        <img src="c:\Users\jagad\Downloads\WhatsApp Image 2025-03-07 at 10.21.31_2fc292b8.jpg" alt="Teja Kumar R" class="profile-pic">
+    </div>
+</body>
+</html>

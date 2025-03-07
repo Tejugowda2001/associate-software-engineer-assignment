@@ -1,0 +1,36 @@
+#slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+}
+
+#slider img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+#slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#slider #prevButton {
+    left: 20px;
+}
+
+#slider #nextButton {
+    right: 20px;
+}
